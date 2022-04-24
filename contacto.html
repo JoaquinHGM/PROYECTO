@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="encabezado">
+        <img class="logo__marca" src="images/logoCG.png" alt="">
+        <div class="encabezado__logo">
+            
+            <a href="https://www.facebook.com/claudio.a.gonzalez.56"><img class="logo__redes" src="images/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com/claudioalbertogonzalez/"><img class="logo__redes" src="images/insta.webp" alt="instagram"></a>
+            <a href="https://www.youtube.com/channel/UCTniHdNmpvbQk5NFLE_-ALA"><img class="logo__redes" src="images/youtube.png" alt="youtube"></a>
+        </div>
+    </header>
+
+    <div class="contenedor">
+        <nav class="contenedor__menu">
+            <a href="convivencias.html" class="menu__boton">Convivencias</a>
+            <a href="empoderate.html" class="menu__boton">Empoderate</a>
+            <a href="libros.html" class="menu__boton">Libros</a>
+            <a href="contacto.html" class="menu__boton">Contacto</a>
+        </nav>
+    </div>
+    <form >
+            <div class="formulario__contacto">
+                <legend class="legend">Completa el formulario para contactarte</legend>
+
+                <div class="campos">
+                <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre">
+                </div>
+                <div class="campos">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" name="apellido">
+                </div>
+                <div class="campos">
+                    <label for="email">Email</label>
+                    <input type="email">
+                </div>
+                <div class="campos">
+                    <label for="password">Contraseña</label>
+                    <input type="password">
+                </div>
+                <div class="campos">
+                    <label for="telefono">Telefono</label>
+                    <input type="number" name="telefono" >
+                </div>
+                <div class="campos">
+                    <label for="radio">Sexo:</label>
+                    <input type="radio" name="sexo" id="m">Masculino
+                    <input type="radio" name="sexo" id="f">Femenino
+                    <input type="radio" name="sexo" id="o">Otro
+                </div>
+                <div class="campos">
+                    <label for="Start">Fecha de Nacimiento:</label>
+                    <input type="date" id="start" name="trip-start" value="2019-07-14" min="1980-01-1" max="2020-01-31"> 
+                </div>
+                <div class="campos">
+                    <p>Nivel de Conocimiento de Idiomas</p>
+                </div>
+                <div class="campos">
+                    <input type="range" id="spanish"name="your spanish" min="0"max="11">
+                    <label for="spanish">Spanish</label>
+                </div>        
+                <div class="campos">
+                    <input type="range" id="english" name="your english" min="0"max="11">
+                    <label for="english">English</label> 
+                </div>
+                <div class="campos">
+                    <label>Deseas recibir email con todas nuestras novedades?</label>
+                    <input type="checkbox" name="" >
+                </div>
+                <div class="campos">
+                    <label>Aceptas los terminos y condiciones</label>
+                    <input type="checkbox" name="acepta" id="1">
+                </div>
+                
+                <div class="campos">
+                    <button class="boton__enviar"><input type="submit" name="enviar"></button>
+                </div>
+            </div>
+    </form>
+</body>
+<footer>
+    <p>Todos los derechos reservados.Claudio Gonzalez.</p>
+</footer>
+</html>
+
